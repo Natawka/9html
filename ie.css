@@ -1,0 +1,66 @@
+.violet {
+	position: relative;
+	behavior: url(PIE.htc);
+	-pie-background:linear-gradient(#745083, #322539);
+}
+
+.shadow {
+	background:url(img/slider_bckgr.png);
+}
+
+.slider label {
+	position: absolute;
+	height: 10px;
+	width: 10px;
+	top: 350px;
+	left: 590px;
+	behavior: url(PIE.htc);
+	background: url(img/slider_bckgr.png);
+	border: 2px solid #bebebe;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#labe2 {
+	left: 610px;
+	background: url(img/slider_bckgr.png);
+	border: 2px solid #bebebe;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#labe3 {
+	left: 630px;
+	background: url(img/slider_bckgr.png);
+	border: 2px solid #bebebe;
+	border-radius: 50%;	
+	cursor: pointer;
+}
+
+#labe4 {
+	left: 650px;
+	background: url(img/slider_bckgr.png);
+	border: 2px solid #bebebe;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.slider > label:hover,
+#labe2:hover,
+#labe3:hover,
+#labe4:hover {
+    background: white;
+}
+
+.slider--second.slider label {
+	display: none;
+}
+
+.block__ln:hover {
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#ffffff, Direction=135, Strength=2);
+}
+
+.arrowl img,
+.arrowr img {
+	border: none;
+}
